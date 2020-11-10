@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Content CMS',
+    description: 'Content Management System with Gatsby',
+    author: 'ke'
+  },
   plugins: [{
     resolve: `gatsby-plugin-styled-components`,
     options: {

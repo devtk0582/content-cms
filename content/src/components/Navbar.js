@@ -11,9 +11,14 @@ const Navbar = () => {
         <li>
           <Link to='/news'>News</Link>
         </li>
+        <li>
+          <Link to='/example'>Exmaple</Link>
+        </li>
       </ul>
+
     </nav>
-  )
+
+)
 }
 
 export default Navbar
